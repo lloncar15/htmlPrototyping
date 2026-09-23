@@ -1,0 +1,31 @@
+# Game Prototypes
+
+Throwaway HTML5 prototypes that test whether game systems are fun before
+building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
+
+## Commands
+- pnpm dev <slug> / pnpm test / pnpm typecheck
+- pnpm playtest <slug>   headless seeded replay + screenshots
+- pnpm verify            must pass before any change is done
+
+## Rules
+- Game logic lives in src/sim.ts and packages/*. It must not import
+  Phaser, PixiJS, or the DOM, and must not call Math.random().
+- Use the seeded RNG from @proto/core. Record the seed of every run.
+- State changes only via applyAction(state, playerId, action).
+  Clients see state only via viewFor(state, playerId).
+- Every tunable number lives in config/*.json. No magic numbers.
+- Visual tokens live in config/theme.json. Keep visuals rough.
+- Do not add dependencies without asking.
+- Do not add code to packages/ unless it is already duplicated in
+  two prototypes, or the user says it is a deliberate shared system.
+- A change is done only when pnpm verify passes. Report its output.
+- After a verified, pushed change, run pnpm log-change <slug>.
+
+## Cross-platform
+- Scripts in tools/scripts/ are Node or TypeScript, never bash.
+- Import paths must match file name casing exactly. macOS is
+  case-insensitive; CI is not.
+- Hook commands call pnpm scripts only, never shell one-liners.
+
+Each prototype has its own AGENTS.md with what it validates.
