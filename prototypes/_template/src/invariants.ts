@@ -15,7 +15,9 @@ export const invariants: Invariant<State>[] = [
     name: "card-range",
     check(s) {
       for (const id of PLAYERS) {
-        const card = s.players[id].hand.find((c) => !Number.isInteger(c) || c < s.config.minCard || c > s.config.maxCard);
+        const card = s.players[id].hand.find(
+          (c) => !Number.isInteger(c) || c < s.config.minCard || c > s.config.maxCard,
+        );
         if (card !== undefined) return `${id} holds ${card}, outside ${s.config.minCard}..${s.config.maxCard}`;
       }
       return null;
@@ -23,7 +25,8 @@ export const invariants: Invariant<State>[] = [
   },
   {
     name: "turn-range",
-    check: (s) => (s.turn >= 1 && s.turn <= s.config.maxTurns ? null : `turn ${s.turn} outside 1..${s.config.maxTurns}`),
+    check: (s) =>
+      s.turn >= 1 && s.turn <= s.config.maxTurns ? null : `turn ${s.turn} outside 1..${s.config.maxTurns}`,
   },
   {
     name: "score-bounds",

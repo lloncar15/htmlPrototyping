@@ -1,0 +1,10 @@
+node_modules
+dist
+.screens
+pnpm-lock.yaml
+*.generated.json
+# Written by `pnpm playtest <slug> --update`; keep its exact output.
+**/replays/**
+# Prose and tool-owned config keep their authors' formatting.
+*.md
+.claude

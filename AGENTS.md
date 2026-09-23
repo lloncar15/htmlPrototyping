@@ -9,6 +9,8 @@ building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
 - pnpm verify            must pass before any change is done
 - pnpm playtest <slug> --update   re-record replays/smoke.json, only
   after an intentional rules change; say so and show the hash diff
+- Playwright MCP (browser) is a fallback for checks pnpm playtest
+  can't make. Say when you used it; it never replaces pnpm verify.
 
 ## Rules
 - Game logic lives in src/sim.ts and packages/*. It must not import

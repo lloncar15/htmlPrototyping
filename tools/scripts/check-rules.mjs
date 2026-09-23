@@ -8,7 +8,10 @@ import { repoRoot } from "./prototypes.mjs";
 
 const RULES = [
   { re: /\bMath\.random\s*\(/, why: "calls Math.random(); use the seeded RNG from @proto/core" },
-  { re: /\b(Date\.now|performance\.now)\s*\(|\bnew Date\s*\(/, why: "reads the clock; pass time in as an action or argument" },
+  {
+    re: /\b(Date\.now|performance\.now)\s*\(|\bnew Date\s*\(/,
+    why: "reads the clock; pass time in as an action or argument",
+  },
   {
     re: /\b(document|window|localStorage|sessionStorage|navigator|requestAnimationFrame)\b/,
     why: "touches the DOM; only src/main.ts may",

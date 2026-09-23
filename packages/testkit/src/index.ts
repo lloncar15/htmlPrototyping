@@ -121,14 +121,24 @@ export function runMatch<S, A, C>(sim: PlayableSim<S, A, C>, config: C, opts: Ma
     const active = sim.activePlayers(state);
     const playerId = active.find((p) => sim.legalActions(state, p).length > 0);
     if (playerId === undefined) {
-      fail(steps, "stuck", "stuck", `Game not over but no active player has a legal action (active: [${active.join(", ")}])`);
+      fail(
+        steps,
+        "stuck",
+        "stuck",
+        `Game not over but no active player has a legal action (active: [${active.join(", ")}])`,
+      );
       break;
     }
     const action = opts.policy(state, playerId, sim.legalActions(state, playerId));
     try {
       recorder.apply(playerId, action);
     } catch (err) {
-      fail(steps + 1, "threw", "applyAction", `applyAction(${playerId}, ${JSON.stringify(action)}) threw: ${message(err)}`);
+      fail(
+        steps + 1,
+        "threw",
+        "applyAction",
+        `applyAction(${playerId}, ${JSON.stringify(action)}) threw: ${message(err)}`,
+      );
       break;
     }
     steps++;

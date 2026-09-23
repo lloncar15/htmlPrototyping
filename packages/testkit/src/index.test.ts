@@ -24,7 +24,8 @@ function makeSim(overrides: Partial<PlayableSim<State, Action, Config>> = {}): P
     applyAction(state, playerId, action) {
       if (playerId !== active(state)) throw new Error(`Not ${playerId}'s turn`);
       const next = structuredClone(state);
-      next.totals[playerId] = (next.totals[playerId] as number) + (action.type === "roll" ? nextInt(next.rng, 1, 6) : 1);
+      next.totals[playerId] =
+        (next.totals[playerId] as number) + (action.type === "roll" ? nextInt(next.rng, 1, 6) : 1);
       next.turn++;
       return next;
     },
@@ -55,7 +56,8 @@ describe("testkit", () => {
   it("reports an invariant violation with seed, step, and reason", () => {
     const noBigLeads: Invariant<State> = {
       name: "no-big-lead",
-      check: (s) => (Math.abs((s.totals.p1 ?? 0) - (s.totals.p2 ?? 0)) > 3 ? `lead is ${s.totals.p1} vs ${s.totals.p2}` : null),
+      check: (s) =>
+        Math.abs((s.totals.p1 ?? 0) - (s.totals.p2 ?? 0)) > 3 ? `lead is ${s.totals.p1} vs ${s.totals.p2}` : null,
     };
     const result = sweepSeeds(makeSim(), config, { ...base, seeds: [1], invariants: [noBigLeads] });
     expect(result.violations[0]).toMatchObject({ seed: 1, kind: "invariant", name: "no-big-lead" });
@@ -85,7 +87,11 @@ describe("testkit", () => {
   });
 
   it("catches a throwing applyAction, a stuck game, a runaway game, and unhashable state", () => {
-    const stuck = runMatch(makeSim({ legalActions: () => [] }), config, { ...base, seed: 1, policy: randomLegalBot(1) });
+    const stuck = runMatch(makeSim({ legalActions: () => [] }), config, {
+      ...base,
+      seed: 1,
+      policy: randomLegalBot(1),
+    });
     expect(stuck.violations[0]?.kind).toBe("stuck");
 
     const endless = runMatch(makeSim({ isOver: () => false }), config, { ...base, seed: 1, policy: randomLegalBot(1) });
