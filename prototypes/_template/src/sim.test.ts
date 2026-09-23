@@ -1,59 +1,37 @@
-import { createRecorder, createRng, hashState, pick, playReplay } from "@proto/core";
+import { hashState } from "@proto/core";
+import { assertNoViolations, seedRange, sweepSeeds } from "@proto/testkit";
 import { describe, expect, it } from "vitest";
+import replayConfig from "../config/replay.json";
 import config from "../config/sim.json";
+import verifyConfig from "../config/verify.json";
+import smoke from "../replays/smoke.json";
+import { invariants } from "./invariants";
+import { recordSmoke } from "./smoke";
 import * as sim from "./sim";
 
-const SEED_COUNT = 20;
-const seeds = Array.from({ length: SEED_COUNT }, (_, i) => i + 1);
-
-/** Play a full game choosing random legal actions from a separate policy RNG. */
-function playFullGame(seed: number) {
-  const policy = createRng(seed);
-  const rec = createRecorder(sim, config, { seed, buildHash: "test", timestep: null, checkpointEvery: 5 });
-  while (rec.state.winner === null) {
-    const actions = sim.legalActions(rec.state, rec.state.active);
-    rec.apply(rec.state.active, pick(policy, actions));
-  }
-  return { state: rec.state, replay: rec.finish() };
-}
+const seeds = seedRange(verifyConfig.seedCount);
 
 describe("template sim", () => {
-  it.each(seeds)("seed %i: same seed + actions -> same final hash", (seed) => {
-    const a = playFullGame(seed);
-    const b = playFullGame(seed);
-    expect(hashState(a.state)).toBe(hashState(b.state));
-    expect(a.replay).toEqual(b.replay);
-  });
-
-  it.each(seeds)("seed %i: replay reproduces every checkpoint", (seed) => {
-    const { replay } = playFullGame(seed);
-    const roundTripped = JSON.parse(JSON.stringify(replay));
-    expect(playReplay(sim, config, roundTripped).mismatches).toEqual([]);
-  });
-
-  it.each(seeds)("seed %i: invariants hold every turn", (seed) => {
-    const policy = createRng(seed);
-    let state = sim.init(seed, config);
-    let played = { p1: 0, p2: 0 };
-    while (state.winner === null) {
-      const who = state.active;
-      const action = pick(policy, sim.legalActions(state, who));
-      const card = state.players[who].hand[action.index] as number;
-      state = sim.applyAction(state, who, action);
-      played = { ...played, [who]: played[who] + card };
-      for (const id of sim.PLAYERS) {
-        const p = state.players[id];
-        expect(p.hand).toHaveLength(config.handSize);
-        expect(p.hand.every((c) => Number.isInteger(c) && c >= config.minCard && c <= config.maxCard)).toBe(true);
-        expect(p.score).toBe(played[id]);
-      }
-    }
-    expect(state.turn).toBe(config.maxTurns);
+  it(`${verifyConfig.seedCount} seeded full games: invariants hold, same seed -> same hashes, replays reproduce`, () => {
+    const result = sweepSeeds(sim, config, {
+      seeds,
+      maxActions: verifyConfig.maxActions,
+      checkpointEvery: replayConfig.checkpointEvery,
+      invariants,
+    });
+    assertNoViolations(result);
+    expect(result.matches.every((m) => m.state?.winner !== null)).toBe(true);
   });
 
   it("different seeds deal different games", () => {
     const hashes = new Set(seeds.map((s) => hashState(sim.init(s, config))));
-    expect(hashes.size).toBe(SEED_COUNT);
+    expect(hashes.size).toBe(seeds.length);
+  });
+
+  it("the committed smoke replay matches the current rules", () => {
+    expect(recordSmoke().checkpointHashes, "Rules changed? Re-record with: pnpm playtest _template --update").toEqual(
+      smoke.checkpointHashes,
+    );
   });
 
   it("applyAction never mutates its input", () => {
@@ -68,8 +46,9 @@ describe("template sim", () => {
     expect(() => sim.applyAction(state, "p2", { type: "play", index: 0 })).toThrow("Not p2's turn");
     expect(() => sim.applyAction(state, "p9", { type: "play", index: 0 })).toThrow("Unknown player");
     expect(() => sim.applyAction(state, "p1", { type: "play", index: config.handSize })).toThrow("out of range");
-    const { state: finished } = playFullGame(1);
-    expect(() => sim.applyAction(finished, finished.active, { type: "play", index: 0 })).toThrow("Game is over");
+    let s = state;
+    while (!sim.isOver(s)) s = sim.applyAction(s, s.active, { type: "play", index: 0 });
+    expect(() => sim.applyAction(s, s.active, { type: "play", index: 0 })).toThrow("Game is over");
   });
 
   it("viewFor hides the opponent's hand and the RNG", () => {

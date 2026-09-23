@@ -4,3 +4,5 @@ packages:
   - "tools/*"
 allowBuilds:
   esbuild: true
+  # Hooks are installed by the root "prepare" script instead.
+  lefthook: false

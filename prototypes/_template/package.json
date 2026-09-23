@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@proto/core": "workspace:*"
+    "@proto/core": "workspace:*",
+    "@proto/testkit": "workspace:*"
   }
 }

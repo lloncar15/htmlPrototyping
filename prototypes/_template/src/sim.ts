@@ -73,6 +73,14 @@ export function init(seed: number, config: Config): State {
   return state;
 }
 
+export function isOver(state: State): boolean {
+  return state.winner !== null;
+}
+
+export function activePlayers(state: State): PlayerId[] {
+  return isOver(state) ? [] : [state.active];
+}
+
 export function legalActions(state: State, playerId: string): Action[] {
   if (state.winner !== null || playerId !== state.active) return [];
   return state.players[state.active].hand.map((_, index) => ({ type: "play", index }));

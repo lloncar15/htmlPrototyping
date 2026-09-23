@@ -7,6 +7,8 @@ building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
 - pnpm dev <slug> / pnpm test / pnpm typecheck
 - pnpm playtest <slug>   headless seeded replay + screenshots
 - pnpm verify            must pass before any change is done
+- pnpm playtest <slug> --update   re-record replays/smoke.json, only
+  after an intentional rules change; say so and show the hash diff
 
 ## Rules
 - Game logic lives in src/sim.ts and packages/*. It must not import

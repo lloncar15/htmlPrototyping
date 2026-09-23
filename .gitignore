@@ -2,5 +2,6 @@ node_modules
 dist
 .screens/
 .claude/settings.local.json
+lefthook-local.yml
 *.generated.json
 .DS_Store

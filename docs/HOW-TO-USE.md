@@ -32,6 +32,42 @@ cd game-prototypes
 pnpm install
 ```
 
+`pnpm install` also sets up the commit check (see "The rules of the road"). If you skip it, Git will commit without checking anything.
+
+### If you commit from a Git app (Sourcetree, GitHub Desktop, Fork…)
+
+The commit check works in Git apps too, but on a Mac many apps can't find `pnpm`, so **every** commit fails with `pnpm: command not found`, even good ones. Fix it once per computer:
+
+1. In Terminal, run this and note the folder(s) it prints (for example `/opt/homebrew/bin`):
+
+   ```
+   dirname "$(command -v node)"; dirname "$(command -v pnpm)"
+   ```
+
+2. Create a file called `.lefthookrc` in your home folder, with one line using those folders (separate several with `:`):
+
+   ```
+   export PATH="/opt/homebrew/bin:$PATH"
+   ```
+
+3. Create a file called `lefthook-local.yml` in the repo folder (Git ignores it, it's just for you):
+
+   ```
+   rc: ~/.lefthookrc
+   ```
+
+4. In Terminal, in the repo folder, run:
+
+   ```
+   pnpm exec lefthook install
+   ```
+
+   This rewrites the commit check so it reads your `.lefthookrc`. Skipping this step is the usual reason the fix "doesn't work". (`pnpm install` does not always redo it.)
+
+Commit something small from your Git app to check. If the check fails for a real reason, the app shows the same message you'd see in Terminal.
+
+On Windows this is usually not needed.
+
 ---
 
 ## Playing a prototype
@@ -168,6 +204,7 @@ What goes to the Unity team: the design doc, the config files (unchanged), the r
 | The other player can't connect on LAN | Check you're on the same network and your firewall allows the port. |
 | Players see different things | Compare the version stamps in the corner; both need the same build. |
 | Git won't let me commit | `pnpm verify` failed. Run it to see why, or ask the agent to fix it. |
+| Git app says `pnpm: command not found` on commit | Do the one-time Git app setup under "First-time setup". |
 | Agent seems to ignore the rules | Start a new session from the repo folder. For Claude Code, make sure it's up to date. |
 | Skills missing on Windows | Symlinks may be off. See `docs/agent-setup.md`. |
 

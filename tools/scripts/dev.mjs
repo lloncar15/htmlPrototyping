@@ -2,46 +2,9 @@
 //   pnpm dev          -> launcher listing every prototype
 //   pnpm dev <slug>   -> one prototype, hot reload
 import { createServer } from "vite";
-import { readdir, readFile, writeFile, stat } from "node:fs/promises";
-import { fileURLToPath } from "node:url";
+import { writeFile } from "node:fs/promises";
 import path from "node:path";
-
-const repoRoot = fileURLToPath(new URL("../../", import.meta.url));
-const protoDir = path.join(repoRoot, "prototypes");
-
-/** Read the `Validates:` line from a prototype's AGENTS.md, if present. */
-async function validatesLine(slug) {
-  try {
-    const text = await readFile(path.join(protoDir, slug, "AGENTS.md"), "utf8");
-    const match = text.match(/^Validates:\s*(.+)$/m);
-    return match ? match[1].trim() : "";
-  } catch {
-    return "";
-  }
-}
-
-/** Scan prototypes/ for directories containing an index.html. */
-async function listPrototypes() {
-  let entries;
-  try {
-    entries = await readdir(protoDir, { withFileTypes: true });
-  } catch {
-    return [];
-  }
-  const out = [];
-  for (const entry of entries) {
-    if (!entry.isDirectory()) continue;
-    const slug = entry.name;
-    try {
-      await stat(path.join(protoDir, slug, "index.html"));
-    } catch {
-      continue;
-    }
-    out.push({ slug, validates: await validatesLine(slug) });
-  }
-  out.sort((a, b) => a.slug.localeCompare(b.slug));
-  return out;
-}
+import { listPrototypes, protoDir, repoRoot } from "./prototypes.mjs";
 
 async function main() {
   const slug = process.argv[2];

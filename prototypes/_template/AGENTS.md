@@ -4,7 +4,9 @@ Validates: the workspace boots and the template sim is fully deterministic.
 
 Renderer: plain DOM placeholder (Phaser/PixiJS chosen per prototype).
 Rules in src/sim.ts (placeholder two-player card game, hotseat).
-Config: config/sim.json, config/replay.json. Theme: config/theme.json.
+Config: config/sim.json, config/replay.json, config/verify.json.
+Theme: config/theme.json. Invariants: src/invariants.ts.
+Smoke replay: replays/smoke.json, recorded by src/smoke.ts.
 
 Done when:
 - `pnpm test` passes: 20 seeds replay to identical checkpoint hashes.

@@ -1,0 +1,6 @@
+# Git hooks. Installed by `pnpm install` (root "prepare" script).
+# Hook commands call pnpm scripts only.
+pre-commit:
+  commands:
+    verify:
+      run: pnpm verify

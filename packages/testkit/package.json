@@ -1,0 +1,11 @@
+{
+  "name": "@proto/testkit",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@proto/core": "workspace:*"
+  }
+}

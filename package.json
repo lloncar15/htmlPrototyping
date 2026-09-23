@@ -2,12 +2,19 @@
   "name": "game-prototypes",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@12.5.1",
   "scripts": {
+    "prepare": "lefthook install",
     "dev": "node tools/scripts/dev.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "test": "vitest run"
+    "test": "vitest run",
+    "check-rules": "node tools/scripts/check-rules.mjs",
+    "playtest": "node tools/scripts/playtest.mjs",
+    "verify": "node tools/scripts/verify.mjs"
   },
   "devDependencies": {
+    "lefthook": "^2.1.14",
+    "playwright": "^1.63.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.10",
     "vitest": "^3.2.7"

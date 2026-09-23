@@ -1,0 +1,84 @@
+{
+  "buildHash": "smoke",
+  "configVersion": "sim@1",
+  "seed": 1,
+  "timestep": null,
+  "actions": [
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "play",
+        "index": 2
+      }
+    },
+    {
+      "playerId": "p2",
+      "action": {
+        "type": "play",
+        "index": 0
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "play",
+        "index": 0
+      }
+    },
+    {
+      "playerId": "p2",
+      "action": {
+        "type": "play",
+        "index": 0
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "play",
+        "index": 0
+      }
+    },
+    {
+      "playerId": "p2",
+      "action": {
+        "type": "play",
+        "index": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "play",
+        "index": 1
+      }
+    },
+    {
+      "playerId": "p2",
+      "action": {
+        "type": "play",
+        "index": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "play",
+        "index": 1
+      }
+    },
+    {
+      "playerId": "p2",
+      "action": {
+        "type": "play",
+        "index": 0
+      }
+    }
+  ],
+  "checkpointHashes": {
+    "0": "47f9e4b12452e0f2",
+    "5": "7ec0a76ced892de2",
+    "10": "98f5b2f43df03833",
+    "final": "98f5b2f43df03833"
+  }
+}
