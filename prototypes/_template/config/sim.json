@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "handSize": 3,
+  "minCard": 1,
+  "maxCard": 6,
+  "maxTurns": 10
+}

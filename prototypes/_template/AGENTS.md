@@ -1,9 +1,15 @@
 # _template
 
-Validates: the workspace boots and renders a placeholder scene.
+Validates: the workspace boots and the template sim is fully deterministic.
 
-Renderer: plain canvas placeholder (Phaser/PixiJS chosen per prototype).
-Rules will live in src/sim.ts (Stage 2). Theme: config/theme.json.
+Renderer: plain DOM placeholder (Phaser/PixiJS chosen per prototype).
+Rules in src/sim.ts (placeholder two-player card game, hotseat).
+Config: config/sim.json, config/replay.json. Theme: config/theme.json.
 
 Done when:
-- `pnpm dev _template` renders the placeholder scene with no console errors.
+- `pnpm test` passes: 20 seeds replay to identical checkpoint hashes.
+- `pnpm dev _template` plays a full game with no console errors.
+
+Local rules:
+- Run a specific deal with `?seed=<uint32>`; the seed is logged on start,
+  and the full replay JSON is logged when a game ends.

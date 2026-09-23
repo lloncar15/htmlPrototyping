@@ -1,5 +1,8 @@
 {
   "name": "@proto/template",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@proto/core": "workspace:*"
+  }
 }

@@ -6,12 +6,27 @@
     <title>_template</title>
     <style>
       html, body { margin: 0; height: 100%; background: #14161a; }
-      #app { display: grid; place-items: center; height: 100%; }
-      canvas { border-radius: 12px; }
+      #app {
+        display: grid; place-items: center; height: 100%;
+        background: var(--bg); color: var(--text); font: var(--font);
+      }
+      .panel {
+        background: var(--panel); border-radius: calc(var(--radius) * 1px);
+        padding: 24px; min-width: 320px; display: grid; gap: 16px;
+      }
+      .scores { display: flex; gap: 16px; }
+      .hand { display: flex; gap: 8px; }
+      .hand button {
+        width: 56px; height: 72px; font: inherit; font-size: 22px;
+        border: 0; border-radius: 8px; background: var(--accent); color: var(--bg);
+        cursor: pointer;
+      }
+      .hand button:disabled { opacity: 0.4; cursor: default; }
+      .meta { opacity: 0.5; font-size: 12px; }
     </style>
   </head>
   <body>
-    <div id="app"><canvas id="scene" width="480" height="320"></canvas></div>
+    <div id="app"></div>
     <script type="module" src="./src/main.ts"></script>
   </body>
 </html>
