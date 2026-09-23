@@ -2,6 +2,10 @@
 // Pure code — packages/*/src and prototypes/*/src except src/main.ts —
 // must not call Math.random(), read the clock, touch the DOM, or
 // import a renderer. Test files are exempt.
+//
+// @proto/ui is exempt too: it is the designer layer (tuning panel,
+// version stamp, note box, theme loader), renderer-side by design and
+// holding no game rules. It is the only package allowed the DOM.
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { repoRoot } from "./prototypes.mjs";
@@ -37,11 +41,15 @@ async function* walk(dir) {
   }
 }
 
+/** Packages that may touch the DOM. See the note at the top of this file. */
+const DOM_PACKAGES = ["ui"];
+
 async function pureFiles() {
   const files = [];
   for (const group of ["packages", "prototypes"]) {
     for (const pkg of await readdir(path.join(repoRoot, group), { withFileTypes: true }).catch(() => [])) {
       if (!pkg.isDirectory()) continue;
+      if (group === "packages" && DOM_PACKAGES.includes(pkg.name)) continue;
       const src = path.join(repoRoot, group, pkg.name, "src");
       for await (const file of walk(src)) {
         if (!file.endsWith(".ts") || file.endsWith(".test.ts") || file.endsWith(".d.ts")) continue;

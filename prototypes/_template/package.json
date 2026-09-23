@@ -4,6 +4,7 @@
   "type": "module",
   "dependencies": {
     "@proto/core": "workspace:*",
-    "@proto/testkit": "workspace:*"
+    "@proto/testkit": "workspace:*",
+    "@proto/ui": "workspace:*"
   }
 }

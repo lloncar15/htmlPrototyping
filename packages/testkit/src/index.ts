@@ -222,3 +222,106 @@ export function assertNoViolations(result: { violations: Violation[] }): void {
     throw new Error(`${result.violations.length} violation(s):\n${formatViolations(result.violations)}`);
   }
 }
+
+// --- Batch simulation (pnpm sim) -------------------------------------
+// A balance run: play N seeds with a bot and aggregate what each match
+// ended up looking like. The per-game meaning comes from the prototype
+// (its `outcome` and `metrics` functions); everything here is generic.
+
+export type BatchOptions<S, A> = {
+  seeds: number[];
+  maxActions: number;
+  checkpointEvery: number;
+  invariants?: Invariant<S>[];
+  /** Defaults to randomLegalBot(seed). */
+  makePolicy?: (seed: number) => Policy<S, A>;
+  /** Bucket a finished match, e.g. the winner. Defaults to "finished". */
+  outcome?: (state: S) => string;
+  /** Numbers to average across matches, e.g. score, turns. */
+  metrics?: (state: S) => Record<string, number>;
+};
+
+export type BatchRow = { seed: number; steps: number; outcome: string; metrics: Record<string, number> };
+
+export type MetricSummary = { mean: number; min: number; max: number };
+
+export type BatchSummary = {
+  matches: number;
+  /** Share is 0..1 of matches that ended in this bucket. */
+  outcomes: Record<string, { count: number; share: number }>;
+  actions: MetricSummary;
+  metrics: Record<string, MetricSummary>;
+};
+
+export type BatchResult = { rows: BatchRow[]; summary: BatchSummary; violations: Violation[] };
+
+function summarize(values: number[]): MetricSummary {
+  return {
+    mean: values.reduce((sum, v) => sum + v, 0) / values.length,
+    min: Math.min(...values),
+    max: Math.max(...values),
+  };
+}
+
+/**
+ * Play one match per seed and aggregate. Violations do not stop the run:
+ * a balance pass wants the whole picture, and the caller decides whether
+ * to fail. Matches that violated an invariant are left out of the
+ * summary, because their numbers describe a broken game.
+ */
+export function runBatch<S, A, C>(sim: PlayableSim<S, A, C>, config: C, opts: BatchOptions<S, A>): BatchResult {
+  const makePolicy = opts.makePolicy ?? ((seed: number) => randomLegalBot<S, A>(seed));
+  const rows: BatchRow[] = [];
+  const violations: Violation[] = [];
+
+  for (const seed of opts.seeds) {
+    const match = runMatch(sim, config, { ...opts, seed, policy: makePolicy(seed) });
+    violations.push(...match.violations);
+    if (match.violations.length > 0 || match.state === null) continue;
+    rows.push({
+      seed,
+      steps: match.steps,
+      outcome: opts.outcome?.(match.state) ?? "finished",
+      metrics: opts.metrics?.(match.state) ?? {},
+    });
+  }
+
+  const outcomes: BatchSummary["outcomes"] = {};
+  for (const row of rows) {
+    const bucket = (outcomes[row.outcome] ??= { count: 0, share: 0 });
+    bucket.count += 1;
+  }
+  for (const bucket of Object.values(outcomes)) bucket.share = bucket.count / rows.length;
+
+  const metrics: Record<string, MetricSummary> = {};
+  for (const name of Object.keys(rows[0]?.metrics ?? {})) {
+    metrics[name] = summarize(rows.map((row) => row.metrics[name] ?? 0));
+  }
+
+  return {
+    rows,
+    summary: {
+      matches: rows.length,
+      outcomes,
+      actions: rows.length > 0 ? summarize(rows.map((row) => row.steps)) : { mean: 0, min: 0, max: 0 },
+      metrics,
+    },
+    violations,
+  };
+}
+
+/** A fixed-width table of the summary, for the terminal and for diffing before/after. */
+export function formatBatchSummary(summary: BatchSummary): string {
+  const round = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(2));
+  const lines = [`matches: ${summary.matches}`, "", "outcome          share     count"];
+  for (const [name, { count, share }] of Object.entries(summary.outcomes).sort((a, b) => b[1].count - a[1].count)) {
+    lines.push(`${name.padEnd(16)} ${`${(share * 100).toFixed(1)}%`.padStart(6)} ${String(count).padStart(9)}`);
+  }
+  lines.push("", "metric            mean       min       max");
+  for (const [name, s] of [["actions", summary.actions] as const, ...Object.entries(summary.metrics)]) {
+    lines.push(
+      `${name.padEnd(16)} ${round(s.mean).padStart(6)} ${round(s.min).padStart(9)} ${round(s.max).padStart(9)}`,
+    );
+  }
+  return lines.join("\n");
+}

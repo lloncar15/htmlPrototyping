@@ -76,7 +76,7 @@ On Windows this is usually not needed.
 pnpm dev
 ```
 
-Open the address it prints (usually `http://localhost:5173`). You'll see the **launcher**: a list of every prototype with the question it's testing. Click one to play.
+Open the address it prints (usually `http://localhost:5173`). You'll see the **launcher**: a list of every prototype with the question it's testing. Each prototype runs as its own little server, so to play one, stop `pnpm dev` and run `pnpm dev <name>` instead — the launcher tells you the exact command for each.
 
 Every prototype shows its build and config version in a corner. If you're comparing notes with someone, check you're on the same version.
 
@@ -88,11 +88,21 @@ Each prototype has a `README.md` explaining controls and what is currently fake 
 
 You never need to edit code to change the game's numbers.
 
-**Using the tuning panel:** open a prototype and press the panel toggle (see the README; usually `` ` ``). Move the sliders and the game updates live. When you like the result, click **Export JSON** and save the file over the one in `prototypes/<name>/config/`.
+**Using the tuning panel:** open a prototype and press the panel toggle (see the README; usually `` ` ``). Move a slider and the game restarts on the same seed with the new numbers — the same deal under the new rules. When you like the result, click **Export JSON** and save the downloaded file over the one in `prototypes/<name>/config/`.
+
+An exported file whose numbers you changed comes back with its `version` bumped by one. That's deliberate: replays and session logs record the version, so the same version must always mean the same numbers.
 
 **Editing directly:** open the files in `prototypes/<name>/config/` in any text editor. The game reloads when you save.
 
-**Changing the look:** colours, fonts and spacing are in `config/theme.json`. Change those freely.
+**Changing the look:** colours, fonts and spacing are in `config/theme.json`. Change those freely; the game re-skins without restarting.
+
+**Seeing what a change did:** to measure rather than guess, run
+
+```
+pnpm sim <prototype-name> --seeds 200
+```
+
+It plays 200 games with a bot and prints who won how often, and the average, lowest and highest of whatever that prototype measures. Run it before and after a change and compare. An agent asked for a "tuning pass" does exactly this.
 
 ---
 
@@ -114,6 +124,8 @@ and shares the network address it prints. The other person opens that address.
 **Leaving notes during play:** press `N`, type what you're thinking ("no answer to lane pressure here"), press Enter. The note is saved against the current turn.
 
 Every match is recorded in `prototypes/<name>/sessions/`. Those files can be replayed step by step later, so "turn 6 felt bad" can actually be looked at.
+
+**Not built yet:** LAN, remote and the `sessions/` files arrive with multiplayer (Stage 7 of `docs/PLAN.md`). Today, hotseat has no cover screen, and a finished match prints its recording — actions plus your notes — to the browser console instead of writing a file.
 
 ---
 

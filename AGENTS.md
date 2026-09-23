@@ -6,6 +6,8 @@ building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
 ## Commands
 - pnpm dev <slug> / pnpm test / pnpm typecheck
 - pnpm playtest <slug>   headless seeded replay + screenshots
+- pnpm sim <slug> --seeds N   batch bot matches, balance metrics
+- pnpm new-proto <slug> / pnpm log-change <slug>
 - pnpm verify            must pass before any change is done
 - pnpm playtest <slug> --update   re-record replays/smoke.json, only
   after an intentional rules change; say so and show the hash diff
@@ -20,6 +22,10 @@ building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
   Clients see state only via viewFor(state, playerId).
 - Every tunable number lives in config/*.json. No magic numbers.
 - Visual tokens live in config/theme.json. Keep visuals rough.
+- The designer layer (tuning panel, version stamp, note box, theme)
+  comes from @proto/ui and is wired in src/main.ts only. Hotkeys and
+  slider ranges live in config/ui.json. @proto/ui is the one package
+  allowed the DOM; it holds no game rules.
 - Do not add dependencies without asking.
 - Do not add code to packages/ unless it is already duplicated in
   two prototypes, or the user says it is a deliberate shared system.

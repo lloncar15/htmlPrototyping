@@ -22,11 +22,9 @@ Every `CLAUDE.md` contains one line, `@AGENTS.md`, so Claude reads the same rule
 | extract-design-doc | reads code + config | now |
 | extract-shared-module | moves duplicated code into `packages/` | now |
 | port-to-unity | transliterates sim + tests to C# | now |
-| new-prototype | `pnpm new-proto <slug>` | Stage 5 |
-| tuning-pass | `pnpm sim <slug> --seeds N` | Stage 5 |
-| log-change | `pnpm log-change <slug>` | Stage 5 |
-
-The Stage 5 skills stop and say so if their command doesn't exist yet.
+| new-prototype | `pnpm new-proto <slug>` | now |
+| tuning-pass | `pnpm sim <slug> --seeds N` | now |
+| log-change | `pnpm log-change <slug>` | now |
 
 **Windows:** Git only creates the symlink if symlinks are enabled. Turn on Developer Mode, then in the repo run `git config core.symlinks true` and `git checkout -- .claude/skills`. If `.claude/skills` is a small text file instead of a folder, this is why.
 

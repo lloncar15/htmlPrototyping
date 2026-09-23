@@ -10,10 +10,13 @@
     "test": "vitest run",
     "check-rules": "node tools/scripts/check-rules.mjs",
     "playtest": "node tools/scripts/playtest.mjs",
+    "sim": "node tools/scripts/sim.mjs",
     "verify": "node tools/scripts/verify.mjs",
     "format": "prettier --write .",
     "format:edited": "node tools/scripts/format-edited.mjs",
-    "agent:status": "node tools/scripts/agent-status.mjs"
+    "agent:status": "node tools/scripts/agent-status.mjs",
+    "new-proto": "node tools/scripts/new-proto.mjs",
+    "log-change": "node tools/scripts/log-change.mjs"
   },
   "devDependencies": {
     "lefthook": "^2.1.14",

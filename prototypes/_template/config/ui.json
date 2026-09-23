@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "hotkeys": {
+    "panel": "`",
+    "notes": "n"
+  },
+  "panel": {
+    "title": "Tuning",
+    "expanded": false
+  },
+  "tuning": {
+    "sim": {
+      "handSize": { "min": 1, "max": 8, "step": 1 },
+      "minCard": { "min": 1, "max": 20, "step": 1 },
+      "maxCard": { "min": 1, "max": 20, "step": 1 },
+      "maxTurns": { "min": 2, "max": 40, "step": 1 }
+    },
+    "theme": {
+      "radius": { "min": 0, "max": 32, "step": 1 }
+    }
+  }
+}
