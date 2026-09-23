@@ -1,0 +1,6 @@
+packages:
+  - "prototypes/*"
+  - "packages/*"
+  - "tools/*"
+allowBuilds:
+  esbuild: true

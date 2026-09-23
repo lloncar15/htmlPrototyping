@@ -1,0 +1,8 @@
+{
+  "bg": "#14161a",
+  "panel": "#1d2027",
+  "accent": "#6ea8fe",
+  "text": "#e6e8eb",
+  "radius": 12,
+  "font": "16px system-ui, sans-serif"
+}

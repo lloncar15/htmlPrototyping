@@ -1,0 +1,5 @@
+{
+  "name": "@proto/scripts",
+  "private": true,
+  "type": "module"
+}

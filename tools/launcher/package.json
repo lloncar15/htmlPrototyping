@@ -1,0 +1,5 @@
+{
+  "name": "@proto/launcher",
+  "private": true,
+  "type": "module"
+}

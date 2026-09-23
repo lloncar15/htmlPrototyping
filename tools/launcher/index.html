@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game Prototypes</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #14161a;
+        --fg: #e6e8eb;
+        --muted: #8b929c;
+        --card: #1d2027;
+        --accent: #6ea8fe;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #14161a;
+        color: #e6e8eb;
+        font: 15px/1.5 system-ui, sans-serif;
+        padding: 48px 16px;
+      }
+      main { max-width: 640px; margin: 0 auto; }
+      h1 { font-size: 22px; margin: 0 0 4px; }
+      p.sub { color: #8b929c; margin: 0 0 32px; }
+      ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+      .card {
+        display: block; padding: 16px 18px; border-radius: 10px;
+        background: #1d2027; color: inherit;
+        border: 1px solid #2a2e37;
+      }
+      .slug { font-weight: 600; }
+      .validates { color: #8b929c; margin-top: 4px; font-size: 13px; }
+      .empty { color: #8b929c; }
+      code { background: #2a2e37; padding: 1px 5px; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Game Prototypes</h1>
+      <p class="sub">Throwaway HTML5 prototypes. Pick one to open.</p>
+      <ul id="list"></ul>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

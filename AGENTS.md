@@ -21,6 +21,9 @@ building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
   two prototypes, or the user says it is a deliberate shared system.
 - A change is done only when pnpm verify passes. Report its output.
 - After a verified, pushed change, run pnpm log-change <slug>.
+- Never commit. Do not run git commit, git push, or any command that
+  creates a commit. Leave all changes staged/unstaged for the user to
+  review and commit themselves.
 
 ## Cross-platform
 - Scripts in tools/scripts/ are Node or TypeScript, never bash.

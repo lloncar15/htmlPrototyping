@@ -1,0 +1,6 @@
+node_modules
+dist
+.screens/
+.claude/settings.local.json
+*.generated.json
+.DS_Store
