@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "suits": 4,
+  "ranks": 13,
+  "tableauPiles": 7,
+  "drawCount": 1,
+  "maxPasses": 0,
+  "emptyTableauNeedsKing": true,
+  "moveLimit": 500
+}

@@ -1,0 +1,22 @@
+{
+  "bg": "#f4e4cd",
+  "table": "#e6cdaa",
+  "panel": "#fdf6ea",
+  "cardFace": "#fffaf1",
+  "cardBack": "#c2703f",
+  "cardBackTrim": "#9d5730",
+  "slot": "#d8bb95",
+  "ink": "#4b3a2c",
+  "inkSoft": "#96826d",
+  "suitWarm": "#bf3f2f",
+  "suitCool": "#3f5a51",
+  "accent": "#d98324",
+  "highlight": "#f6c185",
+  "radius": 10,
+  "cardWidth": 62,
+  "cardHeight": 88,
+  "fanUp": 26,
+  "fanDown": 13,
+  "gap": 12,
+  "font": "16px ui-rounded, Avenir, system-ui, sans-serif"
+}

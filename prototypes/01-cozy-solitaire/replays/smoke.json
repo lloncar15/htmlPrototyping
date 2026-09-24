@@ -1,0 +1,6334 @@
+{
+  "buildHash": "smoke",
+  "configVersion": "sim@1",
+  "seed": 1,
+  "timestep": null,
+  "actions": [
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "waste",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 5
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 8
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "draw"
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 2
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 2
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 4
+        },
+        "count": 1
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 5
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "count": 3
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 1
+        },
+        "to": {
+          "kind": "tableau",
+          "index": 3
+        },
+        "count": 4
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "move",
+        "from": {
+          "kind": "tableau",
+          "index": 6
+        },
+        "to": {
+          "kind": "foundation",
+          "index": 2
+        },
+        "count": 1
+      }
+    }
+  ],
+  "checkpointHashes": {
+    "0": "20eed177885aed6b",
+    "50": "f69d1494b4ab165b",
+    "100": "d5176f740a6ca530",
+    "150": "fe9412935368a822",
+    "200": "4678c82fb5699f44",
+    "250": "2e97abfcecf873ee",
+    "300": "6b0affdab522b83f",
+    "350": "d4c342a7ec9fe4e6",
+    "400": "7a06c5ceb2c5fc4d",
+    "450": "81c07e8e5d34ea24",
+    "500": "1b2fd964c35223a0",
+    "final": "1b2fd964c35223a0"
+  }
+}

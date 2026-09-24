@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "hotkeys": {
+    "panel": "`",
+    "notes": "n"
+  },
+  "panel": {
+    "title": "Tuning",
+    "expanded": false
+  },
+  "tuning": {
+    "sim": {
+      "suits": { "min": 2, "max": 4, "step": 2 },
+      "ranks": { "min": 4, "max": 13, "step": 1 },
+      "tableauPiles": { "min": 3, "max": 9, "step": 1 },
+      "drawCount": { "min": 1, "max": 3, "step": 1 },
+      "maxPasses": { "min": 0, "max": 5, "step": 1 },
+      "moveLimit": { "min": 50, "max": 1000, "step": 50 }
+    },
+    "theme": {
+      "radius": { "min": 0, "max": 24, "step": 1 },
+      "cardWidth": { "min": 40, "max": 96, "step": 1 },
+      "cardHeight": { "min": 56, "max": 136, "step": 1 },
+      "fanUp": { "min": 12, "max": 44, "step": 1 },
+      "fanDown": { "min": 4, "max": 24, "step": 1 },
+      "gap": { "min": 4, "max": 32, "step": 1 }
+    }
+  }
+}
