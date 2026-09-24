@@ -53,9 +53,26 @@
         background: #1d2027;
         color: inherit;
         border: 1px solid #2a2e37;
+        text-decoration: none;
+      }
+      a.card:hover,
+      a.card:focus-visible {
+        border-color: #6ea8fe;
       }
       .slug {
         font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .badge {
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        padding: 1px 7px;
+        border-radius: 999px;
+        background: #2a2e37;
+        color: #8b929c;
       }
       .validates {
         color: #8b929c;
@@ -78,6 +95,6 @@
       <p class="sub">Throwaway HTML5 prototypes. Pick one to open.</p>
       <ul id="list"></ul>
     </main>
-    <script type="module" src="./main.ts"></script>
+    <script type="module" src="/tools/launcher/main.ts"></script>
   </body>
 </html>

@@ -86,7 +86,9 @@ On Windows this is usually not needed.
 pnpm dev
 ```
 
-Open the address it prints (usually `http://localhost:5173`). You'll see the **launcher**: a list of every prototype with the question it's testing. Each prototype runs as its own little server, so to play one, stop `pnpm dev` and run `pnpm dev <name>` instead — the launcher tells you the exact command for each.
+Open the address it prints (usually `http://localhost:5173`). You'll see the **launcher**: a list of every prototype with the question it's testing, tagged 2D or 3D and `replay` or `smoke`. Click one to play it — a "← Prototypes" link in the corner brings you back. One server runs everything, so you don't have to stop and restart to try another one.
+
+If you'd rather give a prototype the whole server to itself (a cleaner URL, and nothing else being watched), run `pnpm dev <name>`.
 
 Every prototype shows its build and config version in a corner. If you're comparing notes with someone, check you're on the same version.
 

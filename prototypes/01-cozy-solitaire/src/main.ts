@@ -5,6 +5,7 @@
 import { createRecorder, type Recorder } from "@proto/core";
 import {
   configVersionOf,
+  createBackLink,
   createNoteBox,
   createThemeLoader,
   createTuningPanel,
@@ -47,6 +48,9 @@ let selection: { pile: sim.Pile; count: number } | null = null;
 
 const root = document.getElementById("app") as HTMLDivElement;
 const loadTheme = createThemeLoader(root, theme);
+
+// Only appears under `pnpm dev`'s one-server launcher; a no-op otherwise.
+createBackLink();
 
 const stamp = createVersionStamp({ buildHash: BUILD_HASH, configVersion: allConfigVersions(), seed });
 
