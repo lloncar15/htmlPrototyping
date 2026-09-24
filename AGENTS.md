@@ -16,7 +16,15 @@ building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
 
 ## Rules
 - Game logic lives in src/sim.ts and packages/*. It must not import
-  Phaser, PixiJS, or the DOM, and must not call Math.random().
+  Phaser, PixiJS, three.js, or the DOM, and must not call Math.random().
+- three.js is allowed only in src/main.ts and src/view/**. src/sim.ts
+  uses plain {x,y,z} objects, never THREE.* classes: hashState throws on
+  class instances, and plain objects port cleanly.
+- Each prototype declares Testing: replay | smoke in its AGENTS.md,
+  matching "mode" in its config/verify.json. See docs/PLAN.md section 1.
+- The threejs-* skills are reference material only. Repo rules win:
+  graybox primitives, no postprocessing or shader polish unless the
+  prototype's question is about visuals.
 - Use the seeded RNG from @proto/core. Record the seed of every run.
 - State changes only via applyAction(state, playerId, action).
   Clients see state only via viewFor(state, playerId).

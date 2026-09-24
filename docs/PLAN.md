@@ -6,21 +6,25 @@ The repo is agent-agnostic. Claude Code and Codex follow the same rules from the
 
 ---
 
-## 1. When to use this repo (the genre gate)
+## 1. When to use this repo (choose a testing mode)
 
-Decide per game, before starting a prototype.
+Any game idea can be prototyped here: 2D or 3D, turn-based or real-time. What changes per prototype is how it is verified. Decide before starting.
 
-**Prototype here** when the fun lives in rules and numbers: card and deck-builders, turn-based tactics, roguelike systems, idle/incremental, puzzle, economy/management, UI-heavy and narrative games.
+**`replay` mode** — deterministic and auto-tested. The same seed, config version and action list must reproduce the same state hashes, and `pnpm playtest` checks them. Choose this when the fun lives in rules and numbers: card and deck-builders, turn-based tactics (2D or 3D), roguelike systems, idle/incremental, puzzle, economy/management, UI-heavy and narrative games. Fixed-tick real-time games can use it too, as long as nothing drifts.
 
-**Do not prototype here** when the fun lives in feel: platformers, action, anything 3D, physics-driven, controller-driven, or VR. Game feel (input latency, coyote time, hit-stop, physics constants, animation timing) is tuned against a specific engine and does not transfer. Graybox those directly in Unity.
+**`smoke` mode** — manual-playtest-first. `pnpm playtest` boots the prototype, runs a short hand-written input script, and fails on console errors, thrown errors, invariant failures or a blank render. It does not compare hashes. Choose this when the fun lives in movement or feel, or when float/physics drift makes hashes unstable: action, platforming, physics-driven games, and anything using Rapier.
 
-Rule of thumb: this repo answers "are the systems fun?", never "does it feel good to control?"
+Recommendation: `replay` when the question is about rules, `smoke` when it is about feel. Moving from `smoke` to `replay` later is a config change plus recording a replay — the contract is the same either way (section 4, rule 3).
+
+**Caution:** feel numbers (input latency, coyote time, hit-stop, physics constants, animation timing) are tuned against a specific engine and do not transfer to Unity. A `smoke`-mode prototype can still answer "is this loop worth building?", but its numbers must be re-tuned in Unity, not copied.
+
+Rule of thumb: this repo answers "is the idea worth building?" Only `replay`-mode prototypes also hand over numbers you can trust.
 
 ---
 
 ## 2. Core decisions
 
-- **Stack:** pnpm workspaces, Vite, TypeScript (`strict`). Phaser is the default renderer; PixiJS when a prototype wants a thin renderer over its own logic. Avoid physics libraries for anything feel-related.
+- **Stack:** pnpm workspaces, Vite, TypeScript (`strict`). Phaser is the default 2D renderer; PixiJS when a prototype wants a thin renderer over its own logic; three.js for 3D. Rapier is opt-in, added only to the prototypes that need physics, and those default to `smoke` mode.
 - **Logic is pure.** Game rules live in a deterministic simulation with no renderer, DOM, or `Math.random()` imports. The renderer is a shell around it.
 - **Numbers live in JSON.** All tuning in `config/*.json`, hot-reloaded, never hard-coded. JSON carries over to Unity verbatim.
 - **Verification lives in the repo, not the agent.** `pnpm verify` decides whether work is acceptable. Git hooks and CI run it for every change, whoever made it.
@@ -75,10 +79,12 @@ README.md            # plain-language: what it tests, how to play, what's fake
 CHANGELOG.md
 index.html
 src/main.ts          # renderer + input only
+src/view/**          # 3D scene, mesh sync, input mapping (3D prototypes)
 src/sim.ts           # pure rules
 config/*.json        # tuning
 config/theme.json    # palette, type, spacing
-replays/smoke.json   # seeded replay used by playtest
+config/verify.json   # testing mode + smoke settings
+replays/smoke.json   # seeded replay, or hand-written input script (smoke mode)
 sessions/            # multiplayer session logs
 docs/design.md       # grows into the Unity handoff
 docs/visual-direction.md
@@ -88,9 +94,9 @@ docs/visual-direction.md
 
 ## 4. Architecture rules
 
-1. `src/sim.ts` and `packages/*` logic import nothing from Phaser, PixiJS, or the DOM.
+1. `src/sim.ts` and `packages/*` logic import nothing from Phaser, PixiJS, three.js, or the DOM. three.js belongs in `src/main.ts` and `src/view/**` only; the sim uses plain `{x,y,z}` objects, never `THREE.*` class instances.
 2. All randomness goes through the seeded RNG in `@proto/core`. Every run records its seed.
-3. Simulation advances on a fixed timestep (or discrete turns). Rendering never mutates sim state.
+3. Simulation advances in discrete steps, and **every step is an action**. A turn-based game sends the moves a player makes; a real-time game sends `{ type: "tick", input: { ... } }` once per tick. Tick length comes from `config/sim.json` (`tickMs`), never from the frame's `dt`, so a run is reproducible regardless of frame rate. `main.ts` drives ticks through `createFixedStep`/`advance` from `@proto/core`. Rendering never mutates sim state.
 4. State changes only through `applyAction(state, playerId, action)`. Actions are plain JSON.
 5. Clients see state only through `viewFor(state, playerId)`, which redacts hidden information.
 6. The same seed + config version + action list must always produce the same state hash.
@@ -145,33 +151,30 @@ Portability rules for every skill:
 
 | Skill | Wraps | Purpose |
 |---|---|---|
-| `new-prototype` | `pnpm new-proto <slug>` | Scaffold from `_template`, fill the validate/done-when lines, register in launcher |
-| `playtest` | `pnpm playtest <slug>` | Headless seeded replay, screenshots, console errors, hash check |
+| `new-prototype` | `pnpm new-proto <slug> [--3d] [--smoke]` | Scaffold from a template, pick renderer and testing mode, fill the validate/done-when lines, register in launcher |
+| `playtest` | `pnpm playtest <slug>` | Headless run in a browser, screenshots, console errors; hash check in `replay` mode, boots-and-renders check in `smoke` mode |
 | `tuning-pass` | `pnpm sim <slug> --seeds N` | Change only `config/*.json`, report metric deltas before/after |
 | `log-change` | `pnpm log-change <slug>` | Append a verified changelog entry |
 | `extract-design-doc` | — | Refresh `docs/design.md` from sim + config |
 | `extract-shared-module` | — | Move already-duplicated code into `packages/` |
 | `port-to-unity` | — | Transliterate pure sim + config + tests to C# |
 
-Example (`.agents/skills/playtest/SKILL.md`):
+Shape of a skill (see `.agents/skills/playtest/SKILL.md` for the live one):
 
 ```markdown
 ---
 name: playtest
-description: Run a prototype headlessly with its seeded smoke replay, capture screenshots and console errors, and report pass or fail. Use after any gameplay or UI change, or when asked to playtest or verify a prototype. Do not use for balance analysis; use tuning-pass for that.
+description: <what it does>. Use when <trigger>. Do not use for <the neighbouring skill's job>.
 ---
 # Playtest
-1. If the prototype was not named, ask which one.
-2. Run `pnpm playtest <slug>`. It starts the dev server, replays
-   `replays/smoke.json`, saves screenshots to `.screens/`, and exits
-   non-zero on failure.
-3. Read the JSON report it prints: console errors, invariant failures,
-   final hash vs expected.
-4. If you can view images, check the screenshots for obvious rendering
-   problems (blank canvas, overlapping UI, missing elements).
-5. Report pass or fail with the specific evidence.
+1. Ask for any argument that wasn't given.
+2. Run the script: `pnpm playtest <slug>`.
+3. Read its JSON report and interpret the failures.
+4. Report pass or fail with the specific evidence, verbatim.
 Do not edit game code while running this skill.
 ```
+
+The skill files on disk are the source of truth; this is only the shape.
 
 ---
 
@@ -202,12 +205,31 @@ A change is done only when `pnpm verify` passes. Layers, fastest first:
 1. **Typecheck.**
 2. **Deterministic sim tests** — N seeds per prototype, invariants hold, checkpoint hashes match.
 3. **Hidden-information tests** (PvP) — `viewFor(p)` never contains another player's private data.
-4. **Headless playtest** — seeded replay in a real browser, screenshots, zero console errors.
+4. **Headless playtest** — in a real browser, with screenshots and zero console errors. What it checks depends on the prototype's mode (below).
 5. **Multi-client test** (PvP) — one Playwright test opening two browser contexts over the `memory` or `local` transport.
 
 Enforcement: `lefthook` runs `pnpm verify` on commit; CI runs it on push. Agent hooks, if any, only call these commands.
 
-**Replay format** (`replays/*.json`): `{ buildHash, configVersion, seed, timestep, actions: [...], checkpointHashes }`. A seed alone is not enough — config version and action order are part of the contract.
+### Testing mode
+
+Each prototype sets `"mode": "replay" | "smoke"` in `config/verify.json` — the two modes are described in section 1 — alongside the smoke settings `smokeTicks` and `screenshotEvery`. The prototype's `AGENTS.md` states the same mode on its `Testing:` line.
+
+**Replay format** (`replays/*.json`, `replay` mode): `{ buildHash, configVersion, seed, timestep, actions: [...], checkpointHashes }`. A seed alone is not enough — config version and action order are part of the contract. `timestep` is `null` for turn-based prototypes and the tick length in ms for fixed-tick ones. Playtest replays the actions and fails on any hash mismatch.
+
+**Smoke format** (`replays/smoke.json`, `smoke` mode): a short, hand-written input script.
+
+```json
+{
+  "seed": 918273645,
+  "ticks": 600,
+  "inputs": [
+    { "fromTick": 0, "playerId": "p1", "action": { "type": "tick", "input": { "moveZ": 1 } } },
+    { "fromTick": 120, "playerId": "p1", "action": { "type": "tick", "input": { "moveZ": 1, "jump": true } } }
+  ]
+}
+```
+
+Each entry applies from `fromTick` until the next one replaces it. Playtest runs the script and fails on console errors, thrown errors, invariant failures, or a blank canvas. It does **not** compare hashes, so `--update` has nothing to record: smoke scripts are edited by hand.
 
 ---
 
@@ -276,16 +298,23 @@ The transport code does not port to Unity. Only the sim, the config, and the act
 
 ## 12. Graduation and Unity handoff
 
-A prototype graduates only when:
+Every prototype graduates only when:
 - [ ] The "validates" question in its `AGENTS.md` is answered yes, with playtest evidence.
 - [ ] The fun holds across repeated sessions, not just the first.
-- [ ] Sim tests pass across at least 20 seeds with zero invalid states.
 - [ ] No magic numbers remain in code.
 - [ ] `docs/design.md` is current.
 - [ ] A list exists of feel, render, input, and animation systems that must be built fresh in Unity.
-- [ ] It is not a feel-driven game. If it is, it should never have been here.
 
-Handoff artifacts:
+A `replay`-mode prototype also needs:
+- [ ] Sim tests pass across at least 20 seeds with zero invalid states.
+- [ ] Checkpoint hashes are stable across runs and machines.
+
+A `smoke`-mode prototype instead needs:
+- [ ] Smoke runs pass with no console errors, invariant failures, or blank frames.
+- [ ] Its playtest evidence is human: real sessions, notes, and the designer's judgement, not hashes.
+- [ ] The design doc says explicitly which numbers are feel numbers and must be re-tuned in Unity.
+
+Handoff artifacts (`replay` mode):
 1. `docs/design.md` — core loop, win/lose, entities, state-machine diagrams (Mermaid), tuning tables.
 2. `config/*.json` — carried over unchanged.
 3. Action JSON schema (PvP).
@@ -293,6 +322,8 @@ Handoff artifacts:
 5. Deterministic tests with seeds and expected hashes — re-expressed as NUnit tests.
 6. Replays and session logs — regression fixtures.
 7. The build-fresh-in-Unity list.
+
+Handoff artifacts (`smoke` mode) — items 1, 2 and 7 only. **No sim port is expected.** The browser sim was never verified to the standard a transliteration needs, and its feel numbers do not transfer. What carries over is the design doc, the config as a starting point, and a list of everything to build fresh. If a `smoke`-mode prototype turns out to be worth porting, switch it to `replay` mode first and earn the checklist above.
 
 The Unity port happens in a separate repository.
 
@@ -358,6 +389,18 @@ Use `new-prototype`. Keep logic in `sim.ts`, numbers in JSON. Iterate against `p
 ### Stage 8 — Shared domain systems
 `@proto/card-engine` or similar, when a programmer writes one (section 5.5).
 
+### Stage 9 — 3D support
+Adds three.js prototypes and the two testing modes (section 1) to the existing contract. Its stages, in order, are in the plan file `make-a-plan-for-rippling-sky.md`:
+
+- **A — Rules and docs.** This file, `docs/HOW-TO-USE.md`, root `AGENTS.md`, and the `new-prototype`, `playtest` and `port-to-unity` skills.
+- **B — One server, click-to-open launcher.** `pnpm dev` with no slug serves the whole repo; launcher cards link to `/prototypes/<slug>/`; `createBackLink()` in `@proto/ui`.
+- **C — The 3D template,** `prototypes/_template-3d/`, in `replay` mode, plus `check-rules` and `new-proto` support. Adding `three` and `@types/three` needs the user's approval.
+- **D — Testing modes in playtest and testkit.** `playtest.mjs` branches on `mode`, runs headless WebGL via SwiftShader, and adds a blank-canvas check; `runMatch` takes a timestep and gains a scripted tick bot.
+- **E — threejs-skills,** vendored into `.agents/skills/` as reference material with their licence and pinned commit recorded.
+- **F — First real 3D prototype,** scaffolded with `--3d` and whichever mode fits the question.
+
+**Done when:** `pnpm verify --all` passes, `_template-3d` playtests green in both modes, and breaking the sim, importing three.js into `sim.ts`, or hiding the scene each fails with a readable reason.
+
 ---
 
 ## 14. Cautions
@@ -387,7 +430,10 @@ before building in Unity. Prototypes are disposable. Full plan: docs/PLAN.md.
 
 ## Rules
 - Game logic lives in src/sim.ts and packages/*. It must not import
-  Phaser, PixiJS, or the DOM, and must not call Math.random().
+  Phaser, PixiJS, three.js, or the DOM, and must not call Math.random().
+- three.js is allowed only in src/main.ts and src/view/**. src/sim.ts
+  uses plain {x,y,z} objects, never THREE.* class instances.
+- Each prototype declares Testing: replay | smoke in its AGENTS.md.
 - Use the seeded RNG from @proto/core. Record the seed of every run.
 - State changes only via applyAction(state, playerId, action).
   Clients see state only via viewFor(state, playerId).
@@ -409,7 +455,8 @@ Each prototype has its own AGENTS.md with what it validates.
 
 Validates: <one question, answerable yes/no by playtesting>
 
-Renderer: <Phaser | PixiJS>. Rules in src/sim.ts.
+Renderer: <plain DOM | Phaser | PixiJS | three.js>. Rules in src/sim.ts.
+Testing: <replay | smoke>   (matches "mode" in config/verify.json)
 Config: config/<files>.json. Theme: config/theme.json.
 
 Done when:

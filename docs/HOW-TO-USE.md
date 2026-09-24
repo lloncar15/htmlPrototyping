@@ -11,8 +11,18 @@ A place to make quick, rough, playable versions of game ideas in the browser, so
 Three things to keep in mind:
 
 - **Prototypes are throwaway.** Their job is to answer one question. When it's answered, the prototype has done its work.
-- **It tests systems, not feel.** Card games, strategy, economy, puzzles: yes. How a jump feels, how a hit lands: no, that has to be tested in Unity.
+- **Any kind of game can go here**, 2D or 3D, turn-based or real-time. What changes is how it's checked (see below).
+- **Feel doesn't transfer.** How a jump feels or how a hit lands can be tried here, but the numbers behind it have to be re-tuned in Unity. What carries over cleanly is rules and balance.
 - **Visuals are rough on purpose.** We keep a visual direction for mood, but polish slows iteration down.
+
+### The two testing modes
+
+Every prototype is set to one of these when it's created. It's written on the first few lines of the prototype's `AGENTS.md`.
+
+- **`replay`** — the game is fully repeatable, so the computer can check it. It replays a recorded match and fails if anything about the outcome changed. Best when the fun is in the rules: cards, strategy, economy, puzzles — and turn-based 3D too.
+- **`smoke`** — the computer only checks that the game runs: it plays a short scripted input, then fails on errors or a blank screen. It can't tell you whether the game is still *right* — that's your job, by playing it. Best when the fun is in movement or feel, or when physics makes exact repeats impossible.
+
+A prototype can move from `smoke` to `replay` later if it settles down; ask an agent.
 
 ---
 
@@ -195,7 +205,7 @@ or ask an agent. Then fill in, in `prototypes/04-your-idea/`:
 - `README.md` — how to play it.
 - `docs/visual-direction.md` — reference images, mood, and what it should *not* look like.
 
-Before you start, ask: is the fun in the rules or in the feel? If it's feel (a platformer, an action game, anything 3D), prototype it in Unity instead.
+Before you start, ask: is the fun in the rules or in the feel? That decides the testing mode — `replay` for rules, `smoke` for feel (see "The two testing modes" above). An agent will ask you this, along with 2D or 3D. Either answer is fine; it only changes how the prototype is checked.
 
 ---
 
@@ -203,7 +213,9 @@ Before you start, ask: is the fun in the rules or in the feel? If it's feel (a p
 
 A prototype "graduates" when its question has been answered yes by real playtests, the fun holds up over several sessions, and its design doc is current. The full checklist is in `docs/PLAN.md` section 12.
 
-What goes to the Unity team: the design doc, the config files (unchanged), the rules code and its tests, recorded sessions, and a list of everything that must be built fresh in Unity (controls, animation, effects).
+What goes to the Unity team from a `replay` prototype: the design doc, the config files (unchanged), the rules code and its tests, recorded sessions, and a list of everything that must be built fresh in Unity (controls, animation, effects).
+
+From a `smoke` prototype, less: the design doc, the config as a starting point, and the build-fresh list. The rules code isn't handed over, because nothing proved it behaves identically every time. That's the trade for being able to prototype feel here at all.
 
 ---
 

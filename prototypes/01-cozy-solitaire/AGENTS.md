@@ -3,6 +3,7 @@
 Validates: Does an unhurried, forgiving Klondike keep someone playing a second and third deal in one sitting?
 
 Renderer: plain DOM (no Phaser/Pixi; the board is cards in a grid).
+Testing: replay — deterministic, checked against checkpoint hashes.
 Rules in src/sim.ts — Klondike, one player, draw one, unlimited passes.
 Config: config/sim.json, config/replay.json, config/verify.json,
 config/ui.json. Theme: config/theme.json. Invariants: src/invariants.ts.

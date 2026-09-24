@@ -3,6 +3,7 @@
 Validates: the workspace boots and the template sim is fully deterministic.
 
 Renderer: plain DOM placeholder (Phaser/PixiJS chosen per prototype).
+Testing: replay — deterministic, checked against checkpoint hashes.
 Rules in src/sim.ts (placeholder two-player card game, hotseat).
 Config: config/sim.json, config/replay.json, config/verify.json,
 config/ui.json. Theme: config/theme.json. Invariants: src/invariants.ts.
