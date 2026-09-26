@@ -1,16 +1,21 @@
-// Scaffold a prototype from prototypes/_template.
-//   pnpm new-proto <NN-slug> [--validates "the one question it answers"]
+// Scaffold a prototype from prototypes/_template or prototypes/_template-3d.
+//   pnpm new-proto <NN-slug> [--3d] [--smoke]
+//                            [--validates "the one question it answers"]
 //
 // Copies the template, renames it everywhere the slug appears, registers
 // it in the launcher manifest and links its workspace deps. It never
 // invents game rules: the copy is the template's placeholder game, and
 // the first real change is the designer's or the agent's.
+//
+//   --3d     copy the three.js template instead of the DOM one
+//   --smoke  manual-playtest-first: no hash checks, just boots-and-runs
+//            (see docs/PLAN.md section 1 for which mode to pick)
 import { spawnSync } from "node:child_process";
-import { cp, readFile, readdir, stat, writeFile } from "node:fs/promises";
+import { cp, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { listPrototypes, protoDir, repoRoot } from "./prototypes.mjs";
 
-const TEMPLATE = "_template";
+const TEMPLATES = { "2d": "_template", "3d": "_template-3d" };
 // NN-lowercase-words: the number keeps prototypes in creation order.
 const SLUG_RE = /^\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*$/;
 // Copied files the slug is substituted into; the rest is copied verbatim.
@@ -24,13 +29,19 @@ const REWRITE = [
   "src/batch.ts",
   "src/smoke.ts",
   "src/sim.test.ts",
+  "src/replay.test.ts",
 ];
 const SKIP_DIRS = new Set(["node_modules", ".screens", "dist"]);
 
 const args = process.argv.slice(2);
-const slug = args.find((a) => !a.startsWith("--"));
 const validatesIndex = args.indexOf("--validates");
 const validates = validatesIndex === -1 ? null : args[validatesIndex + 1];
+// The --validates value is not a flag, so skip it explicitly; otherwise
+// `pnpm new-proto --validates "..." 03-x` would take the question as the slug.
+const slug = args.find((a, i) => !a.startsWith("--") && !(validatesIndex !== -1 && i === validatesIndex + 1));
+const is3d = args.includes("--3d");
+const isSmoke = args.includes("--smoke");
+const TEMPLATE = is3d ? TEMPLATES["3d"] : TEMPLATES["2d"];
 
 function rel(p) {
   return path.relative(repoRoot, p).split(path.sep).join("/");
@@ -70,17 +81,30 @@ async function renamePackage(root) {
   await writeFile(file, `${JSON.stringify(pkg, null, 2)}\n`);
 }
 
+const RENDERER_LINE = is3d
+  ? "three.js (graybox primitives) in src/main.ts and src/view/**."
+  : "plain DOM placeholder (Phaser/PixiJS chosen per prototype).";
+
+const TESTING_LINE = isSmoke
+  ? "smoke — boots and runs a hand-written input script; no hash checks."
+  : "replay — deterministic, checked against checkpoint hashes.";
+
+const SMOKE_SOURCE_LINE = isSmoke
+  ? "Smoke script: replays/smoke.json, hand-written — edit it, don't record it."
+  : "Smoke replay: replays/smoke.json, recorded by src/smoke.ts.";
+
 /** Appendix B of docs/PLAN.md. Blanks are the user's to fill, not ours to guess. */
 function agentsMd() {
   return `# ${slug}
 
 Validates: ${validates ?? "<one question, answerable yes/no by playtesting>"}
 
-Renderer: plain DOM placeholder (Phaser/PixiJS chosen per prototype).
+Renderer: ${RENDERER_LINE}
+Testing: ${TESTING_LINE}
 Rules in src/sim.ts — still the template's placeholder game. Replace it.
 Config: config/sim.json, config/replay.json, config/verify.json,
 config/ui.json. Theme: config/theme.json. Invariants: src/invariants.ts.
-Smoke replay: replays/smoke.json, recorded by src/smoke.ts.
+${SMOKE_SOURCE_LINE}
 Batch metrics: src/metrics.ts, wired for \`pnpm sim\` by src/batch.ts.
 
 Done when:
@@ -90,6 +114,46 @@ Done when:
 Local rules:
 - <anything specific to this game>
 `;
+}
+
+/**
+ * A starter input script for `smoke` mode. It is deliberately dull —
+ * hold one direction, then another — because its job is to prove the
+ * prototype boots, ticks and draws something, not to play well. Edit it
+ * by hand: `--update` has nothing to record in smoke mode.
+ */
+function smokeScript(ticks) {
+  const held = (fromTick, moveX, moveZ) => ({
+    fromTick,
+    playerId: "p1",
+    action: { type: "tick", input: { moveX, moveZ } },
+  });
+  const third = Math.max(1, Math.floor(ticks / 3));
+  return {
+    seed: 1,
+    ticks,
+    inputs: [held(0, 0, -1), held(third, 1, 0), held(third * 2, 0, 1)],
+  };
+}
+
+/** Switch the copied prototype into smoke mode and give it a script to run. */
+async function useSmokeMode(root) {
+  // A smoke prototype has no recorded replay, so the recorder and the
+  // tests that compare against it would fail on the first `pnpm test`.
+  // Everything else in src/sim.test.ts holds in either mode.
+  for (const name of ["src/smoke.ts", "src/replay.test.ts"]) {
+    await rm(path.join(root, ...name.split("/")), { force: true });
+  }
+
+  const verifyPath = path.join(root, "config", "verify.json");
+  const verify = JSON.parse(await readFile(verifyPath, "utf8"));
+  verify.mode = "smoke";
+  verify.smokeTicks ??= 300;
+  verify.screenshotEvery ??= 100;
+  await writeFile(verifyPath, `${JSON.stringify(verify, null, 2)}\n`);
+
+  const script = smokeScript(verify.smokeTicks);
+  await writeFile(path.join(root, "replays", "smoke.json"), `${JSON.stringify(script, null, 2)}\n`);
 }
 
 function readmeMd() {
@@ -111,10 +175,10 @@ pnpm dev ${slug}
 
 | Key / action | Does |
 |---|---|
-| Click a card | Play it |
+| ${is3d ? "WASD or arrows | Move" : "Click a card | Play it"} |
 | \`\` \` \`\` | Show or hide the tuning panel |
 | \`N\` | Open the note box — Enter saves it against the current turn |
-| \`?seed=12345\` in the URL | Play a specific deal again |
+| \`?seed=12345\` in the URL | Play a specific ${is3d ? "layout" : "deal"} again |
 
 The bottom-left corner shows the seed, config version and build. Quote
 all three when you report something.
@@ -150,11 +214,17 @@ Newest first. Written with \`pnpm log-change ${slug}\`, after
 
 async function main() {
   if (!slug) {
-    console.error('Usage: pnpm new-proto <NN-slug> [--validates "..."]');
+    console.error('Usage: pnpm new-proto <NN-slug> [--3d] [--smoke] [--validates "..."]');
     return 2;
   }
   if (!SLUG_RE.test(slug)) {
     throw new Error(`Slug "${slug}" must look like 03-market-day: two digits, a dash, lowercase words.`);
+  }
+  if (isSmoke && !is3d) {
+    // Only the 3D template's playtest hook knows how to run an input
+    // script; the DOM one is replay-only. Scaffolding a 2D smoke
+    // prototype would produce something pnpm playtest cannot drive.
+    throw new Error("--smoke needs --3d for now: only the 3D template's playtest hook runs input scripts.");
   }
   const root = path.join(protoDir, slug);
   if (await exists(root)) throw new Error(`${rel(root)} already exists.`);
@@ -168,6 +238,7 @@ async function main() {
   });
   await rewrite(root);
   await renamePackage(root);
+  if (isSmoke) await useSmokeMode(root);
   await writeFile(path.join(root, "AGENTS.md"), agentsMd());
   await writeFile(path.join(root, "README.md"), readmeMd());
   await writeFile(path.join(root, "CHANGELOG.md"), changelogMd());
@@ -189,13 +260,18 @@ async function main() {
   const files = [];
   for await (const file of walk(root)) files.push(rel(file));
 
-  console.log(`new-proto: created ${rel(root)} (${files.length} files) from ${TEMPLATE}\n`);
+  console.log(
+    `new-proto: created ${rel(root)} (${files.length} files) from ${TEMPLATE}, testing mode "${isSmoke ? "smoke" : "replay"}"\n`,
+  );
   console.log("Next:");
   console.log(`  1. Fill in Validates: and Done when: in ${rel(root)}/AGENTS.md`);
   console.log(`  2. Say how to play it in ${rel(root)}/README.md`);
   console.log(`  3. pnpm dev ${slug}`);
   console.log(`  4. pnpm verify`);
   console.log("\nThe rules in src/sim.ts are still the template's placeholder game. Replace them.");
+  if (isSmoke) {
+    console.log(`Smoke mode: edit ${rel(root)}/replays/smoke.json by hand. --update records nothing.`);
+  }
   return 0;
 }
 

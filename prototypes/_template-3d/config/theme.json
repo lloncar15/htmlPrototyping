@@ -1,0 +1,16 @@
+{
+  "bg": "#0e1014",
+  "panel": "#1d2027",
+  "accent": "#6ea8fe",
+  "text": "#e6e8eb",
+  "radius": 12,
+  "font": "16px system-ui, sans-serif",
+  "sky": "#141922",
+  "ground": "#232a35",
+  "grid": "#394354",
+  "player": "#6ea8fe",
+  "pickup": "#f0b858",
+  "fog": "#141922",
+  "fogNear": 18,
+  "fogFar": 46
+}

@@ -22,6 +22,11 @@ export type NoteBox = {
   element: HTMLElement;
   open(): void;
   close(): void;
+  /**
+   * True while the box is showing. A real-time prototype reads this and
+   * ignores held keys, so typing a note does not also drive the game.
+   */
+  isOpen(): boolean;
   notes(): Note[];
   dispose(): void;
 };
@@ -82,6 +87,9 @@ export function createNoteBox(options: NoteBoxOptions): NoteBox {
     element,
     open() {
       element.style.display = "block";
+      // A pointer-locked game swallows the cursor and every key; the box
+      // is useless until the lock is released. Harmless when unlocked.
+      if (document.pointerLockElement) document.exitPointerLock();
       input.focus();
     },
     close() {
@@ -89,6 +97,7 @@ export function createNoteBox(options: NoteBoxOptions): NoteBox {
       input.value = "";
       input.blur();
     },
+    isOpen: () => element.style.display === "block",
     notes: () => notes.map((note) => ({ ...note })),
     dispose() {
       window.removeEventListener("keydown", onKeyDown);
@@ -125,7 +134,7 @@ export function createNoteBox(options: NoteBoxOptions): NoteBox {
       (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName));
     if (event.key.toLowerCase() !== options.hotkey.toLowerCase()) return;
     if (typingElsewhere || event.metaKey || event.ctrlKey) return;
-    if (element.style.display === "block") return;
+    if (box.isOpen()) return;
     event.preventDefault();
     box.open();
   }

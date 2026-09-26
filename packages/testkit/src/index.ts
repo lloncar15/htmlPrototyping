@@ -36,6 +36,8 @@ export type MatchOptions<S, A> = {
   checkpointEvery: number;
   invariants?: Invariant<S>[];
   buildHash?: string;
+  /** Step length in ms for fixed-tick sims; null (the default) for turn-based. */
+  timestep?: number | null;
 };
 
 export type MatchResult<S, A> = {
@@ -84,7 +86,7 @@ export function runMatch<S, A, C>(sim: PlayableSim<S, A, C>, config: C, opts: Ma
     recorder = createRecorder(sim, config, {
       seed,
       buildHash: opts.buildHash ?? "test",
-      timestep: null,
+      timestep: opts.timestep ?? null,
       checkpointEvery: opts.checkpointEvery,
     });
   } catch (err) {

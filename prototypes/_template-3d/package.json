@@ -1,0 +1,14 @@
+{
+  "name": "@proto/template-3d",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@proto/core": "workspace:*",
+    "@proto/testkit": "workspace:*",
+    "@proto/ui": "workspace:*",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0"
+  }
+}

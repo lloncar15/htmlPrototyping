@@ -26,6 +26,18 @@
       "port": 5174
     },
     {
+      "name": "_template-3d",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "_template-3d",
+        "--port",
+        "5176"
+      ],
+      "port": 5176
+    },
+    {
       "name": "01-cozy-solitaire",
       "runtimeExecutable": "pnpm",
       "runtimeArgs": [

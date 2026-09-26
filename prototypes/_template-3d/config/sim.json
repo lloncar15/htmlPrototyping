@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "tickMs": 50,
+  "arenaHalf": 9,
+  "playerRadius": 0.5,
+  "moveAccel": 70,
+  "maxSpeed": 9,
+  "damping": 6,
+  "pickupCount": 10,
+  "pickupRadius": 1.2,
+  "pickupMinSpawnDistance": 3,
+  "winAt": 4,
+  "maxTicks": 900
+}

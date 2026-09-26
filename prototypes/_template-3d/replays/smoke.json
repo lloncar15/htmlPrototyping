@@ -1,0 +1,9021 @@
+{
+  "buildHash": "smoke",
+  "configVersion": "sim@1",
+  "seed": 1,
+  "timestep": 50,
+  "actions": [
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 0
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": 1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 0,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": -1,
+          "moveZ": -1
+        }
+      }
+    },
+    {
+      "playerId": "p1",
+      "action": {
+        "type": "tick",
+        "input": {
+          "moveX": 1,
+          "moveZ": -1
+        }
+      }
+    }
+  ],
+  "checkpointHashes": {
+    "0": "ca8322caec13b22b",
+    "100": "f3ae77281e26faac",
+    "200": "5db3700431d1c921",
+    "300": "3210442376c0672e",
+    "400": "307a459603d73f4f",
+    "500": "f1524ed6c3e06b6a",
+    "600": "8007e6c29e1c454d",
+    "700": "fee9acd4fa8b156c",
+    "800": "3f636350eb559475",
+    "900": "a261fa10984838e5",
+    "final": "a261fa10984838e5"
+  }
+}

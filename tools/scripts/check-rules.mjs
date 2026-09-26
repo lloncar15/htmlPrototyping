@@ -1,7 +1,11 @@
 // Static checks for AGENTS.md rules the type checker cannot see.
-// Pure code — packages/*/src and prototypes/*/src except src/main.ts —
-// must not call Math.random(), read the clock, touch the DOM, or
-// import a renderer. Test files are exempt.
+// Pure code — packages/*/src and prototypes/*/src except src/main.ts
+// and src/view/** — must not call Math.random(), read the clock, touch
+// the DOM, or import a renderer. Test files are exempt.
+//
+// src/view/** is the 3D renderer layer: three.js, the DOM and the clock
+// all belong there, the same way they belong in src/main.ts. It holds
+// no game rules, which is why the sim can still be hashed and ported.
 //
 // @proto/ui is exempt too: it is the designer layer (tuning panel,
 // version stamp, note box, theme loader), renderer-side by design and
@@ -21,8 +25,8 @@ const RULES = [
     why: "touches the DOM; only src/main.ts may",
   },
   {
-    re: /from\s+["'](phaser|pixi\.js|@pixi\/[^"']*)["']|import\s*\(\s*["'](phaser|pixi\.js|@pixi\/)/,
-    why: "imports a renderer; only src/main.ts may",
+    re: /from\s+["'](phaser|pixi\.js|@pixi\/[^"']*|three|three\/[^"']*)["']|import\s*\(\s*["'](phaser|pixi\.js|@pixi\/|three["'/])/,
+    why: "imports a renderer; only src/main.ts and src/view/** may",
   },
 ];
 
@@ -53,7 +57,8 @@ async function pureFiles() {
       const src = path.join(repoRoot, group, pkg.name, "src");
       for await (const file of walk(src)) {
         if (!file.endsWith(".ts") || file.endsWith(".test.ts") || file.endsWith(".d.ts")) continue;
-        if (group === "prototypes" && path.relative(src, file) === "main.ts") continue;
+        const relative = path.relative(src, file).split(path.sep).join("/");
+        if (group === "prototypes" && (relative === "main.ts" || relative.startsWith("view/"))) continue;
         files.push(file);
       }
     }
