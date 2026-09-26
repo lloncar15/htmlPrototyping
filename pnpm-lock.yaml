@@ -215,6 +215,25 @@ importers:
         specifier: workspace:*
         version: link:../../packages/ui
 
+  prototypes/02-bastion-invaders:
+    dependencies:
+      '@proto/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@proto/testkit':
+        specifier: workspace:*
+        version: link:../../packages/testkit
+      '@proto/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      three:
+        specifier: 0.186.1
+        version: 0.186.1
+    devDependencies:
+      '@types/three':
+        specifier: 0.186.0
+        version: 0.186.0
+
   prototypes/_template:
     dependencies:
       '@proto/core':

@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "hotkeys": {
+    "panel": "`",
+    "notes": "n",
+    "restart": "r"
+  },
+  "keys": {
+    "left": [
+      "a",
+      "arrowleft"
+    ],
+    "right": [
+      "d",
+      "arrowright"
+    ],
+    "fire": [
+      " ",
+      "w",
+      "arrowup"
+    ]
+  },
+  "panel": {
+    "title": "Tuning",
+    "expanded": true,
+    "visible": false
+  },
+  "camera": {
+    "zoom": 13.5,
+    "pitchDeg": 52,
+    "yawDeg": 24,
+    "distance": 60,
+    "targetZ": -2,
+    "follow": 0.15,
+    "shake": 0.35,
+    "shakeTicks": 8
+  },
+  "island": {
+    "margin": 2,
+    "edgeDropout": 0.4,
+    "tileGap": 0.06,
+    "tileHeight": 0.45,
+    "rootMin": 0.6,
+    "rootMax": 4.5
+  },
+  "effects": {
+    "assembleTicks": 10,
+    "assembleStagger": 1.4,
+    "assembleDrop": 14,
+    "hopHeight": 0.3,
+    "hoverHeight": 0.9,
+    "debrisPool": 96,
+    "debrisPerKill": 8,
+    "debrisTicks": 18,
+    "motes": 140
+  },
+  "render": {
+    "post": true,
+    "shadows": true,
+    "shadowMapSize": 1024,
+    "exposure": 1.15,
+    "sun": {
+      "x": -12,
+      "y": 20,
+      "z": 10
+    }
+  },
+  "tuning": {
+    "sim": {
+      "tickMs": {
+        "min": 20,
+        "max": 100,
+        "step": 5
+      },
+      "fieldHalfWidth": {
+        "min": 6,
+        "max": 14,
+        "step": 0.5
+      },
+      "playerSpeed": {
+        "min": 2,
+        "max": 20,
+        "step": 0.5
+      },
+      "lives": {
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      "shotSpeed": {
+        "min": 5,
+        "max": 60,
+        "step": 1
+      },
+      "shotCooldownTicks": {
+        "min": 1,
+        "max": 30,
+        "step": 1
+      },
+      "maxPlayerShots": {
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      "invaderCols": {
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      "invaderRows": {
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      "invaderSpacingX": {
+        "min": 1.1,
+        "max": 3,
+        "step": 0.1
+      },
+      "invaderSpacingZ": {
+        "min": 1.1,
+        "max": 3,
+        "step": 0.1
+      },
+      "marchStepX": {
+        "min": 0.1,
+        "max": 1.5,
+        "step": 0.05
+      },
+      "marchStepZ": {
+        "min": 0.2,
+        "max": 2,
+        "step": 0.1
+      },
+      "marchIntervalStart": {
+        "min": 2,
+        "max": 40,
+        "step": 1
+      },
+      "marchIntervalMin": {
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      "enemyFireChance": {
+        "min": 0,
+        "max": 0.5,
+        "step": 0.01
+      },
+      "enemyShotSpeed": {
+        "min": 2,
+        "max": 30,
+        "step": 0.5
+      },
+      "maxEnemyShots": {
+        "min": 0,
+        "max": 10,
+        "step": 1
+      },
+      "bunkerCount": {
+        "min": 0,
+        "max": 6,
+        "step": 1
+      },
+      "bunkerCols": {
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      "bunkerRows": {
+        "min": 1,
+        "max": 4,
+        "step": 1
+      },
+      "maxTicks": {
+        "min": 400,
+        "max": 6000,
+        "step": 100
+      }
+    },
+    "theme": {
+      "radius": {
+        "min": 0,
+        "max": 32,
+        "step": 1
+      },
+      "fogNear": {
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "fogFar": {
+        "min": 2,
+        "max": 200,
+        "step": 1
+      },
+      "shotGlow": {
+        "min": 1,
+        "max": 8,
+        "step": 0.1
+      },
+      "keyIntensity": {
+        "min": 0,
+        "max": 6,
+        "step": 0.1
+      },
+      "hemiIntensity": {
+        "min": 0,
+        "max": 3,
+        "step": 0.1
+      },
+      "bloomStrength": {
+        "min": 0,
+        "max": 3,
+        "step": 0.05
+      },
+      "bloomRadius": {
+        "min": 0,
+        "max": 1,
+        "step": 0.05
+      },
+      "bloomThreshold": {
+        "min": 0,
+        "max": 2,
+        "step": 0.05
+      },
+      "vignetteOffset": {
+        "min": 0,
+        "max": 2,
+        "step": 0.05
+      },
+      "vignetteDarkness": {
+        "min": 0,
+        "max": 3,
+        "step": 0.05
+      }
+    }
+  }
+}

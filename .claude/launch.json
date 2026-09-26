@@ -48,6 +48,18 @@
         "5175"
       ],
       "port": 5175
+    },
+    {
+      "name": "02-bastion-invaders",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "02-bastion-invaders",
+        "--port",
+        "5177"
+      ],
+      "port": 5177
     }
   ]
 }
