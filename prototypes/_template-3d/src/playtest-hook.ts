@@ -11,11 +11,12 @@
 // This prototype ships in replay mode; the smoke branch is here so that
 // flipping config/verify.json is the only change a copy has to make.
 import { hashState, type Replay, type ReplayMismatch } from "@proto/core";
+import type { InputScript } from "@proto/testkit";
 import { invariants } from "./invariants";
 import type { Action, State } from "./sim";
 
-export type SmokeInput = { fromTick: number; playerId: string; action: Action };
-export type SmokeScript = { seed: number; ticks: number; inputs: SmokeInput[] };
+export type SmokeScript = InputScript<Action>;
+export type SmokeInput = SmokeScript["inputs"][number];
 
 export type PlaytestScript = Replay<Action> | SmokeScript;
 

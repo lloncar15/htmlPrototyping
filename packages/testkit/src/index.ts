@@ -66,6 +66,37 @@ export function scriptedBot<S, A>(script: readonly A[]): Policy<S, A> {
   };
 }
 
+/**
+ * A hand-written input script for a fixed-tick sim: each entry applies
+ * from `fromTick` until the next entry for the same player replaces it.
+ * Same shape as a smoke-mode replays/smoke.json (docs/PLAN.md §8).
+ */
+export type InputScript<A> = {
+  seed: number;
+  ticks: number;
+  inputs: { fromTick: number; playerId: string; action: A }[];
+};
+
+/**
+ * Turns an input script into one action per call. Each call is one tick
+ * (one action), so this fits sims where every action is a tick. Throws
+ * when no entry for the player has started yet.
+ */
+export function scriptedTickBot<S, A>(script: Pick<InputScript<A>, "inputs">): Policy<S, A> {
+  let tick = 0;
+  return (_state, playerId) => {
+    let current: A | undefined;
+    for (const entry of script.inputs) {
+      if (entry.playerId === playerId && entry.fromTick <= tick) current = entry.action;
+    }
+    if (current === undefined) {
+      throw new Error(`Input script has no entry for ${playerId} at tick ${tick}; add one at fromTick 0`);
+    }
+    tick++;
+    return current;
+  };
+}
+
 export function seedRange(count: number, first = 1): number[] {
   return Array.from({ length: count }, (_, i) => first + i);
 }
@@ -163,6 +194,8 @@ export type SweepOptions<S, A> = {
   invariants?: Invariant<S>[];
   /** Defaults to randomLegalBot(seed). Called fresh for every run. */
   makePolicy?: (seed: number) => Policy<S, A>;
+  /** Step length in ms for fixed-tick sims; null (the default) for turn-based. */
+  timestep?: number | null;
 };
 
 export type SweepResult<S, A> = { matches: MatchResult<S, A>[]; violations: Violation[] };
@@ -237,6 +270,8 @@ export type BatchOptions<S, A> = {
   invariants?: Invariant<S>[];
   /** Defaults to randomLegalBot(seed). */
   makePolicy?: (seed: number) => Policy<S, A>;
+  /** Step length in ms for fixed-tick sims; null (the default) for turn-based. */
+  timestep?: number | null;
   /** Bucket a finished match, e.g. the winner. Defaults to "finished". */
   outcome?: (state: S) => string;
   /** Numbers to average across matches, e.g. score, turns. */

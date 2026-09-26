@@ -5,8 +5,10 @@ import {
   randomLegalBot,
   runMatch,
   scriptedBot,
+  scriptedTickBot,
   seedRange,
   sweepSeeds,
+  type InputScript,
   type Invariant,
   type PlayableSim,
 } from "./index";
@@ -84,6 +86,47 @@ describe("testkit", () => {
     const state = makeSim().init(1, config);
     expect(script.map(() => bot(state, "p1", []))).toEqual(script);
     expect(() => bot(state, "p1", [])).toThrow("ran out");
+  });
+
+  it("scripted tick bot holds each input until the next entry for that player", () => {
+    const script: InputScript<Action> = {
+      seed: 1,
+      ticks: 6,
+      inputs: [
+        { fromTick: 0, playerId: "p1", action: { type: "step" } },
+        { fromTick: 3, playerId: "p1", action: { type: "roll" } },
+        { fromTick: 0, playerId: "p2", action: { type: "roll" } },
+      ],
+    };
+    const bot = scriptedTickBot<State, Action>(script);
+    const state = makeSim().init(1, config);
+    expect([0, 1, 2, 3, 4].map(() => bot(state, "p1", []).type)).toEqual(["step", "step", "step", "roll", "roll"]);
+    expect(bot(state, "p2", []).type).toBe("roll");
+  });
+
+  it("scripted tick bot throws when no entry covers the tick", () => {
+    const bot = scriptedTickBot<State, Action>({ inputs: [{ fromTick: 2, playerId: "p1", action: { type: "step" } }] });
+    expect(() => bot(makeSim().init(1, config), "p1", [])).toThrow(/no entry for p1 at tick 0/);
+  });
+
+  it("records the timestep for fixed-tick sims and replays a tick script deterministically", () => {
+    const script: InputScript<Action> = {
+      seed: 3,
+      ticks: 40,
+      inputs: [
+        { fromTick: 0, playerId: "p1", action: { type: "roll" } },
+        { fromTick: 0, playerId: "p2", action: { type: "step" } },
+      ],
+    };
+    const run = () =>
+      runMatch(makeSim(), config, { ...base, seed: script.seed, policy: scriptedTickBot(script), timestep: 50 });
+    const a = run();
+    assertNoViolations(a);
+    expect(a.replay?.timestep).toBe(50);
+    expect(a.replay?.checkpointHashes).toEqual(run().replay?.checkpointHashes);
+
+    const turnBased = runMatch(makeSim(), config, { ...base, seed: 1, policy: randomLegalBot(1) });
+    expect(turnBased.replay?.timestep).toBeNull();
   });
 
   it("catches a throwing applyAction, a stuck game, a runaway game, and unhashable state", () => {
